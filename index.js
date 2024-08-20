@@ -15,7 +15,7 @@ let dataw = xlsx.utils.sheet_to_json(ws2)
 
 
 
-app.get('/waffles', function (req, res) {
+app.get('/', function (req, res) {
     res.send(dataw)
   })
 
